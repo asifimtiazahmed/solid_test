@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
   void _updateColor() {
     setState(() {
       final RgbColor rgbColor = RgbColor();
+      print('color changed $rgbColor');
       backgroundColor = Color.fromRGBO(
         rgbColor.red,
         rgbColor.green,
@@ -60,6 +61,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: backgroundColor,
       body: GestureDetector(
+        key: const Key("gestureDetectorMain"),
         behavior: HitTestBehavior.opaque,
         onTap: _updateColor,
         child: Container(

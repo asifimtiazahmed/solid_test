@@ -6,7 +6,7 @@ class RandomColorValue{
   ///The seed is the date time in milliseconds so it is quite random
   ///even during initiation
   int generateValue(){
-    final rnd = Random(DateTime.now().microsecond);
+    final rnd = Random();
     return rnd.nextInt(255);
   }
 
