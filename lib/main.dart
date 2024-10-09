@@ -5,8 +5,9 @@ void main() {
   runApp(const MyApp());
 }
 
-/*MyApp is the primary widget that is run from main*/
+///MyApp is the primary widget that is run from main
 class MyApp extends StatelessWidget {
+  ///The main instance of MyApp parent Widget
   const MyApp({super.key});
 
   // This widget is the root of your application.
@@ -38,7 +39,6 @@ class _HomePageState extends State<HomePage> {
   void _updateColor() {
     setState(() {
       final RgbColor rgbColor = RgbColor();
-      print('color changed $rgbColor');
       backgroundColor = Color.fromRGBO(
         rgbColor.red,
         rgbColor.green,
@@ -53,11 +53,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
+    // by the _updateColor method above.
+
     return Scaffold(
       backgroundColor: backgroundColor,
       body: GestureDetector(
