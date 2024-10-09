@@ -1,3 +1,7 @@
+/// App created as a Test submission to Solid Software by
+/// Asif Imtiaz Ahmed, ON, Canada.
+/// email: a.imtiaz@gmail.com
+///
 import 'package:flutter/material.dart';
 import 'package:solid_test/model/rgb_color.dart';
 
