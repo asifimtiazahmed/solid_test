@@ -1,3 +1,9 @@
+# Solid Software Test Project
+
+## By Asif Imtiaz Ahmed
+
+using the template information below. This was a fun challenge!
+
 # flutter_project_template
 [![flutter_project_template](https://nokycucwgzweensacwfy.supabase.co/functions/v1/get_project_badge?projectId=149)](https://nokycucwgzweensacwfy.supabase.co/functions/v1/get_project_url?projectId=149)
 

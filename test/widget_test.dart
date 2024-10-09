@@ -14,7 +14,7 @@ void main() {
 
     expect(find.byKey(const Key("gestureDetectorMain")), findsOneWidget);
     // Verify that the text is there
-    expect(find.text('Hello There'), findsOneWidget);
+    expect(find.text('Hello there'), findsOneWidget);
 
   });
 

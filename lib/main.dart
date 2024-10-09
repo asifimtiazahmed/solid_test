@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'Hello There',
+                'Hello there',
                 style: Theme.of(context).textTheme.headlineMedium
                     ?.copyWith(color: textColor),
               ),
